@@ -13,6 +13,7 @@
 		4B48ED9020511EC100CD18AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B48ED8F20511EC100CD18AC /* Assets.xcassets */; };
 		4B48ED9320511EC100CD18AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B48ED9120511EC100CD18AC /* LaunchScreen.storyboard */; };
 		4BDB4B692055BE5D00FC0934 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4BDB4B672055BE5D00FC0934 /* DataModel.xcdatamodeld */; };
+		4BDB4B6B205A308B00FC0934 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDB4B6A205A308B00FC0934 /* CategoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		4B48ED9220511EC100CD18AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B48ED9420511EC100CD18AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4BDB4B682055BE5D00FC0934 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		4BDB4B6A205A308B00FC0934 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CategoryViewController.swift; path = Actions/Controllers/CategoryViewController.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		4BAA59E52054BC6900BB1433 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				4BDB4B6A205A308B00FC0934 /* CategoryViewController.swift */,
 				4B48ED8A20511EC100CD18AC /* TodoListViewController.swift */,
 			);
 			path = Controllers;
@@ -171,6 +174,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BDB4B6B205A308B00FC0934 /* CategoryViewController.swift in Sources */,
 				4B48ED8B20511EC100CD18AC /* TodoListViewController.swift in Sources */,
 				4BDB4B692055BE5D00FC0934 /* DataModel.xcdatamodeld in Sources */,
 				4B48ED8920511EC100CD18AC /* AppDelegate.swift in Sources */,
